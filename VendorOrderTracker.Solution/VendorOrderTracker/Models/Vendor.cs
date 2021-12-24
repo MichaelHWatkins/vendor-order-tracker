@@ -33,5 +33,10 @@ namespace VendorOrderTracker.Models
     {
       Orders.Add(order);
     }
+
+    public static void ClearAll()
+    {
+      _instances.Clear();
+    }
   }
 }
